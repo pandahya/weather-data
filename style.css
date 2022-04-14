@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Rubik", sans-serif;
+}
+header h1{
+    color: cornflowerblue;
+    text-align: center;
+}
+p{
+    display: inline;
+    position: fixed;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+.card_label{
+    background-color: white;
+    color: cornflowerblue;
+    position: fixed;
+    display: inline;
+    font-size: 1.5em;
+    padding: 5px;
+    outline: 0.5px solid black;
+    width: fit-content;
+}
+#l0409{
+    top: 130px;
+    left: 300px;
+    rotate: 5deg;
+}
+#l0410{
+    top: 350px;
+    left: 650px;
+    rotate: -5deg;
+}
+#l0411{
+    top: 280px;
+    right: 50px;
+    rotate: 2deg;
+}
+#l0412{
+    bottom: 30px;
+    left: 140px;
+    rotate: -2deg;
+}
+#l0413{
+    bottom: 30px;
+    right: 140px;
+    rotate: -5deg;
+}
+#key{
+    position: fixed;
+    bottom: 310px;
+    right: 40px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px;
+}
+#key_sun{
+    text-shadow: 0.5px 0.5px 0.5px darkgrey;
+    font-size: 3em;
+    position: fixed;
+    bottom: 250px;
+    right: 140px;
+}
+#sun_txt{
+    position: fixed;
+    bottom: 270px;
+    right: 45px;  
+}
+#key_rain{
+    text-shadow: 0.5px 0.5px 0.5px darkgrey;
+    font-size: 5em;
+    position: fixed;
+    bottom: 185px;
+    right: 136px
+}
+#rain_txt{
+    position: fixed;
+    bottom: 220px;
+    right: 100px;
+}
+#key_cloud{
+    text-shadow: 0.5px 0.5px 0.5px darkgrey;
+    font-size: 5em;
+    position: fixed;
+    bottom: 145px;
+    right: 130px
+}
+#cloud_txt{
+    position: fixed;
+    bottom: 170px;
+    right: 20px;
+}
+
+.card img{
+    position: fixed;
+    width: 250px;
+    border: 12px solid white;
+    outline: 0.5px solid black;
+}
+.card{
+    display: inline;
+}
+.card img:hover,
+.card img:focus {
+  cursor: pointer;
+  box-shadow: 2px 2px 5px grey;
+}
+#c0409-1 img{
+    top: 60px;
+    left: 100px;
+    rotate: -5deg;
+}
+#c0409-2 img{
+    top: 200px;
+    left: 160px;
+    rotate: 5deg;
+}
+#c0410-1 img{
+    top: 90px;
+    left: 570px;
+    rotate: 4deg;
+}
+#c0410-2 img{
+    top: 230px;
+    left: 500px;
+    rotate: -2deg;
+}
+#c0411-1 img{
+    top: 190px;
+    right: 200px;
+    rotate: -1deg;
+}
+#c0411-2 img{
+    top: 70px;
+    right: 70px;
+    rotate: 5deg;
+}
+#c0412-1 img{
+    bottom: 80px;
+    left: 80px;
+    rotate: -1deg;
+}
+#c0412-2 img{
+    bottom: 50px;
+    left: 300px;
+    rotate: 2deg;
+}
+#c0413-2 img{
+    bottom: 80px;
+    right: 470px;
+    rotate: -12deg;
+}
+#c0413-3 img{
+    bottom: 60px;
+    right: 210px;
+    rotate: 4deg;
+}
+
+.sun{
+    color: gold;
+    font-size: 10em;
+}
+.cloud{
+    color: rgb(217, 245, 255);
+    font-size: 15em;
+}
+.rain{
+    color: rgb(163, 109, 255);
+    font-size: 15em;
+}
+.sun:hover, .cloud:hover, .rain:hover{
+    cursor: crosshair;
+}
+#sun1_0409{
+    top: 25vh;
+    right: 35vw;
+}
+#sun2_0409{
+    top: 40vh;
+    right: 40vw;
+    rotate: 5deg;
+}
+#sun3_0409{
+    top: 50vh;
+    right: 30vw;
+    rotate: -10deg;
+}
+#rain1_0409{
+    top: 50vh;
+    right: 30vw;
+}
+#rain2_0409{
+    top: 25vh;
+    right: 35vw;
+    rotate: -10deg;
+}
+#rain3_0409{
+    top: 40vh;
+    right: 40vw;
+    rotate: 5deg;
+}
+
+#cloud1_0410{
+    top: 20vh;
+    right: 35vw;
+    rotate: 5deg;
+}
+#cloud2_0410{
+    top: 5vh;
+    right: 30vw;
+    rotate: -5deg;
+}
+#cloud3_0410{
+    top: 10vh;
+    right: 35vw;
+    rotate: 5deg;
+}
+
+#cloud1_0411{
+    top: 5vh;
+    right: 30vw;
+    rotate: 5deg;
+}
+#cloud2_0411{
+    top: 10vh;
+    right: 35vw;
+    rotate: -5deg;
+}
+
+#sun1_0412{
+    top: 25vh;
+    right: 35vw;
+}
+#cloud1_0412{
+    top: 20vh;
+    right: 35vw;
+}
+
+#sun1_0413{
+    top: 40vh;
+    right: 35vw;
+    rotate: 4deg;
+}
+#sun2_0413{
+    top: 28vh;
+    right: 40vw;
+    rotate: -5deg;
+}
+#sun3_0413{
+    top: 12vh;
+    right: 32vw;
+    rotate: 5deg;
+}
+#sun4_0413{
+    top: 30vh;
+    right: 32vw;
+    rotate: 5deg;
+}
+
+.view_card{
+    display: none;
+}
+.view_card h2{
+    background-color: white;
+    position: relative;
+    font-size: 2em;
+    padding: 5px;
+    margin: -90px 30px;
+    outline: 0.5px solid black;
+    z-index: 2;
+    rotate: -10deg;
+    width: fit-content;
+    
+}
+.view_card h3{
+    background-color: white;
+    position: relative;
+    font-size: 2em;
+    padding: 5px;
+    margin: -100px 35px;
+    outline: 0.5px solid black;
+    z-index: 2;
+    rotate: -3deg;
+    width: fit-content;
+}
+.view_card h4{
+    background-color: white;
+    position: relative;
+    font-size: 2em;
+    padding: 5px;
+    margin: 40px 135px;
+    outline: 0.5px solid black;
+    z-index: 2;
+    rotate: 3deg;
+    width: fit-content;
+}
+.view_card p{
+    text-shadow: 1px 1px 1px darkgrey;
+}
+.view{
+    background-color: blueviolet;
+    display: inline;
+    width: 100%;
+    border: 25px solid white;
+    outline: 0.5px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* background-color: black; */
+    background-color: rgba(0,0,0,0.4);
+}
+.modal_content {
+    position: fixed;
+    background-color: red;
+    display: inline;
+    width: 50%;
+    margin: 10vh 20vw;
+}
+.close {
+    background-color: white;
+    outline: 0.5px solid black;
+    color: black;
+    font-size: 28px;
+    z-index: 2;
+    position: fixed;
+    top: 11vh;
+    right: 28vw;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 0 3px 3px 3px;
+}
+.close:hover,
+.close:focus {
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
